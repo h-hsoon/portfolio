@@ -1,9 +1,9 @@
-import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
-import ProjectCard from '../../common/ProjectCard';
+import styles from "./ProjectsStyles.module.css";
+import calculater from "../../assets/calculator.png";
+import goodNews from "../../assets/preview.png";
+import job from "../../assets/job.png";
+import Design from "../../assets/Design uten navn.png";
+import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   return (
@@ -11,28 +11,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={calculater}
+          link="https://github.com/h-hsoon/The_Calculator"
+          h3="Calculater"
+          p="calculater website"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={goodNews}
+          link="https://github.com/h-hsoon/ADL1_NewsPaper"
+          h3="NewsPaper"
+          p="News Paper website"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={job}
+          link="https://github.com/h-hsoon/Job-Boated-Platform"
+          h3="Job Boated"
+          p="Job Boated Platform"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={Design}
+          link="https://github.com/h-hsoon/portfolio"
+          h3="Portfolio"
+          p="portfolio website"
         />
       </div>
     </section>
