@@ -1,5 +1,5 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/Design uten navn.png";
+import heroImg from "../../assets/hsoon.png";
 import sun from "../../assets/icons8-sun.svg";
 import moon from "../../assets/icons8-moon.svg";
 import facebokkLight from "../../assets/icons8-facebook-light.svg";
@@ -8,7 +8,7 @@ import githubLight from "../../assets/icons8-github-light.svg";
 import githubDark from "../../assets/icons8-github-dark.svg";
 import linkedinLight from "../../assets/icons8-linkedin-light.svg";
 import linkedinDark from "../../assets/icons8-linkedin-dark.svg";
-import CV from "../../assets/cv.pdf";
+import CV from "../../assets/Hanna_Hsoon_CV.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -25,7 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture of Hanna Hsoon"
         />
         <img
           className={styles.colorMode}
@@ -40,10 +40,10 @@ function Hero() {
           <br />
           Hsoon
         </h1>
-        <h2>FullStac Developer</h2>
+        <h2>FullStack Developer</h2>
         <span>
           <a href="https://www.facebook.com/hanna.hsoon.96" target="_blank">
-            <img src={facebookIcon} alt="Twitter icon" />
+            <img src={facebookIcon} alt="Facebook icon" />
           </a>
           <a href="https://github.com/h-hsoon" target="_blank">
             <img src={githubIcon} alt="Github icon" />
